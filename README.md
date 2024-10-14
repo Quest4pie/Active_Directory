@@ -1,6 +1,6 @@
 # Active_Directory
 
-##Home.lab
+## Home.lab
 
 This is my Active Directory lab. It was an exciting one where I created multiple servers of kali unbuntu, Windows server, and Windows 10 using Virtualbox. 
 
@@ -9,7 +9,7 @@ This is my Active Directory lab. It was an exciting one where I created multiple
 The plan is to connect both Windows images to Splunk, use Identity Managment tools by creating new users, and by intentionally compromising the account using Crowbar on Kali.
 
 
-##Initial Set up
+## Initial Set up
 
 I launched an ubuntu server and launched enterprise Splunk onto it. 
 
@@ -53,7 +53,7 @@ I logged in and created an event-manager query in splunk so that all the events 
 
 This shows both hosts were operational! We did it!
 
-##Brute-force from the dark
+## Brute-force from the dark
 
 ![Screenshot 2024-10-13 155148](https://github.com/user-attachments/assets/57a14b77-c5e0-4c17-8657-3e0d419b0709)
 
@@ -67,7 +67,7 @@ Oh no, it worked. My 'super secure' password was no match! Let's check out Splun
 
 25,000 events. It sure did. It sure did.
 
-##Conclusion
+## Conclusion
 
 This was super interesting. I've worked with Vanguard in the past and this was another with a new SIEM and server set up that I've never encountered before. 
 
